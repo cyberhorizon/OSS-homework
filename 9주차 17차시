@@ -1,1 +1,17 @@
+personal access token:2021년 8월부터 깃허브에서 개인 프로젝트를 실행할때 비밀번호가 아닌 이걸 발급받도록 변경되었다
+발급방법 github에서 우측하단 setting 클릭 -> 왼쪽하단의 developer setting 클릭 -> generate new token 클릭 -> 암호인증 ->generate token -> 범위설정
 
+pull,push
+github에서 push와 pull이 작동하는 방식                       push
+                   add                          -------------------------------->                              
+working directory   ->    git local repositoy       git remote add origin           git sever local repository(github)
+                  commit                         <---------------------------
+                                                            pull
+push하다가 오류가 생길경우 해결방법
+windows 환경에서 깃 사용자계정과 암호설정 및 변경해주기
+제어판에서 사용자 계정 -> 자격 증명 관리자 
+widows 자격증명
+일반 자격 증명
+git 관련 자격증명 편집
+
+인증오류가 발생하면 personal access token 연동시켜서 해결하면 오류 해결 가능
