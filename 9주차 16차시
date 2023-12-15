@@ -11,3 +11,7 @@ $ git remote add origin 원격저장소 별칭 저장
 $ git remote show origin 더 자세한 정보 보여주는 명령어
 $ git remote rm org 삭제
 
+오픈소스소프트웨어 복제하는방법
+C드라이브에 폴더생성 -> 생성한 폴더에서 마우스 우클릭으로 visual studio code 실행 -> clone git repository 팔레트에 오픈소스소프트웨어 깃주소 복사하여 입력
+-> 지정된 하부에 저장소 폴더 생성하고 복사 -> visual studio code에서 실행 -> 복사성공 -> visual studio code 배시 열어서 명령어로 실행
+명령어 예시($ git clone https://github.com/microsoft/vscode.git)
