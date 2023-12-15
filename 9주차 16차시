@@ -1,0 +1,12 @@
+github에서 저장소 생성방법
+github 로그인 -> create new repository -> 자기 계정 로그인 하고  저장소 이름 적어준뒤 add a readme 파일 추가
+원격 저장소 복제방법
+$ git clone(저장소 주소) -> 복사한 저장소 이름이랑 똑같이 복제됨
+$ git clone (저장소 주소) (새로운 폴더명) -> 하부 폴더에 새로운 폴더명으로 복제됨
+$ git clone (저장소 주소). -> 현재 폴더에 바로 복제됨
+
+$ git remote:원격저장소 목록 보여주는 명령어, 원격저장소의 기본 별칭인 origin 점검해줌
+$ git remote -v 원격저장소 주소하고, 저장소 이름 보여주는 명령어
+$ git remote add origin 원격저장소 별칭 저장
+$ git remote show origin 더 자세한 정보 보여주는 명령어
+$ git remote rm org 삭제
