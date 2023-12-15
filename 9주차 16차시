@@ -10,4 +10,4 @@ $ git remote -v 원격저장소 주소하고, 저장소 이름 보여주는 명�
 $ git remote add origin 원격저장소 별칭 저장
 $ git remote show origin 더 자세한 정보 보여주는 명령어
 $ git remote rm org 삭제
-ㅏ
+
